@@ -79,7 +79,7 @@ section {
   width: 450px;
   height: 550px;
   margin-left: 1.5rem;
-  transform: translateX(1200px);
+  transform: translateX(1100px);
   z-index: -1;
 }
 
@@ -113,8 +113,8 @@ section {
 }
 
 /* Work  */
-#work h1{
-  font-size:50px;
+#work h1 {
+  font-size: 50px;
 }
 #work h1,
 p {
