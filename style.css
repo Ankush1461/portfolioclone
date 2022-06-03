@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  padding-right: 4rem;
+  font-size: 1.1rem;
+  font-weight: 900px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+section {
+  padding: 100px 10%;
+}
+
+/* Home  */
+
+.home {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 4rem;
+}
+.home-text h1 {
+  margin-bottom: 10px 0px 25px;
+  line-height: 2;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.home-text p {
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.home .btn {
+  display: inline-block;
+  color: white;
+  background-color: #a3cb38;
+  padding: 12px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+}
+.home-img {
+  position: absolute;
+  right: 10%;
+}
+
+.home-img-box {
+  position: absolute;
+  background-color: #a3cb38;
+  width: 450px;
+  height: 550px;
+  margin-left: 1.5rem;
+  transform: translateX(1200px);
+  z-index: -1;
+}
+
+/* Education */
+#education {
+  padding: 0%;
+  display: flex;
+}
+#education .main-hustle {
+  font-size: 30px;
+}
+#education .main-hustle div {
+  background-image: url("assets/bg.png");
+}
+#education .main-hustle h1 {
+  padding: 0px 50px;
+}
+
+.education-details ul {
+  margin-left: auto;
+  padding-left: 30%;
+  list-style: none;
+  margin: 20px 0px;
+}
+.education-details ul li {
+  padding-bottom: 20px;
+}
+
+.education-details ul li h1 {
+  color: #a3cb38;
+}
+
+/* Work  */
+#work h1{
+  font-size:50px;
+}
+#work h1,
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#work p {
+  padding: 40px;
+  font-size: 15px;
+}
+
+/* Project  */
+.card-deck {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+}
+
+.card {
+  text-align: center;
+  padding: 1em;
+  width: 23%;
+  border-radius: 2%;
+  margin: 1%;
+  position: relative;
+}
+.card-mark {
+  position: absolute;
+  background-color: #a3cb38;
+  width: 15%;
+  height: 20%;
+  border-radius: 5%;
+  margin-left: 1.5rem;
+  transform: translateY(-20px);
+}
+.card h2 {
+  cursor: pointer;
+  color: #a3cb38;
+}
+.card:hover {
+  box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Achievement */
+
+#achievement {
+  display: flex;
+  grid-gap: 4rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#achievement table {
+  margin: 20px 0px;
+}
+#achievement td {
+  padding: 0 2em 2em 0;
+}
+
+#achievement td div {
+  background-color: #a3cb38;
+  padding: 0.1em 1em;
+  width: 10%;
+  border-radius: 2em;
+}
+
+.achievement-head {
+  font-size: 3em;
+  padding: 5%;
+  background-color: #a3cb38;
+  position: absolute;
+  right: 5%;
+  color: white;
+}
+
+/* Hobby */
+#hobby {
+  display: flex;
+  grid-gap: 40px;
+}
+#hobby h1 {
+  font-size: 50px;
+  color: #a3cb38;
+}
+#hobby ul {
+  list-style: none;
+}
+
+.hobby-img {
+  display: flex;
+}
+.hobby-img ul {
+  list-style: none;
+}
+.hobby-img-list {
+  padding-left: 60%;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+/* Contact  */
+#contact {
+  display: flex;
+  padding: 0;
+  align-items: flex-end;
+}
+.contact-details {
+  background-color: #a3cb38;
+  color: white;
+  padding: 5% 5% 5% 2%;
+}
+.contact-details a {
+  color: white;
+}
+.contact-details i img {
+  height: 24px;
+}
+
+.rights {
+  position: absolute;
+  right: 2%;
+  padding-bottom: 5em;
+}
